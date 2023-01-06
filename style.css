@@ -235,3 +235,47 @@ ul li {
     display: block;
     width: 230px;
 }
+
+
+/* feedback style ----------- */
+.feedback{
+    padding: 5rem 0;
+    background: #d0d0d078;
+}
+
+.feedback__title{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.f__item{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.feedback__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem
+}
+
+.f__person{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+
+.f__person p{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.f__person img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
